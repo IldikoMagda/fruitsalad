@@ -18,5 +18,4 @@ fruitForm.addEventListener("submit", e => {
     addFruit(e.target.fruitInput.value)
     e.target.fruitInput.value = ""
 })
-
 console.log("fruitForm")
